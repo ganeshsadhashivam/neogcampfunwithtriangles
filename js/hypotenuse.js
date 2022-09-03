@@ -18,7 +18,7 @@ function calculateHypotenuse() {
 
     var hypotenuse = Math.sqrt(sumSquare);
 
-    //console.log(hypotenuse);
+
     output.innerText = "The Length of hypotenuse is " + hypotenuse;
 }
 
@@ -26,6 +26,6 @@ function calculateHypotenuse() {
 function sumOfSquares(a, b) {
 
     var sumOfSquare = a * a + b * b;
-    // console.log(sumOfSquare);
+
     return sumOfSquare;
 }
