@@ -1,0 +1,161 @@
+body {
+
+    margin: 0 auto;
+}
+
+:root {
+    --primary-color: #ec4899;
+    --white-color: #f8fafc;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 0.5rem;
+
+
+}
+
+.navigation .navbrand {
+    /* padding-left: 0.6rem;*/
+    font-weight: bold;
+}
+
+
+.nav-list {
+
+    list-style-type: none;
+
+}
+
+.nav-list li {
+    display: inline;
+    padding: 0rem 2rem;
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: large;
+}
+
+.nav-list {
+    text-align: right;
+
+    /*max-width: 0.6rem 1rem;*/
+}
+
+.quiz-main {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.question-container {
+    margin: 1rem;
+    padding: 1rem;
+
+    font-size: larger;
+}
+
+#btn-submit {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #ec4899;
+    color: white;
+}
+
+
+.list-unordered {
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.list-unordered li {
+    display: inline;
+
+}
+
+footer {
+
+    background-color: #ec4899;
+}
+
+footer p {
+    text-align: center;
+    font-size: x-large;
+}
+
+#output {
+    font-size: x-large;
+    margin: 1.5rem;
+}
+
+#angle1,
+#angle2,
+#angle3 {
+    display: block;
+    margin: 1rem 40rem;
+    padding: 1rem;
+    border: 1px solid #ec4899;
+}
+
+#tri-label {
+    color: #ec4899;
+}
+
+#button {
+    background-color: #ec4899;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+
+/*for hypotenuse page*/
+.side-input {
+    display: block;
+    margin: 1rem 41rem;
+    padding: 1rem;
+    border: 1px solid #ec4899;
+}
+
+.hypo-label {
+    color: #ec4899;
+    text-align: center;
+    font-size: large;
+}
+
+#hypotenuse-btn {
+    background-color: #ec4899;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+
+}
+
+
+.area-of-tri {
+    display: block;
+    color: #ec4899;
+}
+
+.base-input {
+
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ec4899;
+
+}
+
+#area-btn {
+    margin: 1rem 40rem;
+    padding: 1rem;
+
+    background-color: #ec4899;
+    color: white;
+    border-radius: 0.5rem;
+}
