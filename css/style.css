@@ -96,10 +96,15 @@ footer p {
 #angle1,
 #angle2,
 #angle3 {
+
+    font-size: large;
     display: block;
-    margin: 1rem 40rem;
-    padding: 1rem;
-    border: 1px solid #ec4899;
+    padding: 0.6rem 1rem;
+    margin: 1rem auto;
+    border: 2px solid #ec4899;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 325px;
 }
 
 #tri-label {
@@ -115,11 +120,16 @@ footer p {
 
 
 /*for hypotenuse page*/
-.side-input {
+.side-input,
+.base-input {
+    font-size: large;
     display: block;
-    margin: 1rem 41rem;
-    padding: 1rem;
-    border: 1px solid #ec4899;
+    padding: 0.6rem 1rem;
+    margin: 1rem auto;
+    border: 2px solid #ec4899;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 325px;
 }
 
 .hypo-label {
@@ -143,19 +153,12 @@ footer p {
     color: #ec4899;
 }
 
-.base-input {
-
-    margin: 1rem;
-    padding: 1rem;
-    border: 1px solid #ec4899;
-
-}
-
 #area-btn {
-    margin: 1rem 40rem;
-    padding: 1rem;
-
-    background-color: #ec4899;
-    color: white;
+    padding: 0.6rem 1rem;
+    margin: 1rem auto;
+    border: 2px solid #ec4899;
     border-radius: 0.5rem;
+    background-color: #ec4899;
+
+
 }
